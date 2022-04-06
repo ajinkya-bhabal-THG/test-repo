@@ -1,0 +1,48 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "sshRSAPublicKey": {
+      "value": "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAozMd0l6jPtIv8yoUz5jTdhyq2XxN97jRGY5Ufd7A/ARFAzlqrdteNZzYnFn4kWIZ4MmgOffNJIEPJuVxcptNEZdDPd0+eTleBN2qiMXnw9iJOEWLyiR6Tm/EHphx9fMCfKWvgHkKuF764FdgeaBzzlE2V5G3p2DP6QAamMJ0Wl9Ho9/boaG02trzxs997fNpfZDo0YBl/ecpmUKy/pn4AGJpGuD5XGS/CQ6IRqn05eKa58FCuop0eLxbLDjpnZSHweYGlpUSHUoCD4FWjVV2whlXl5xopX1HcWkyK7EIC6+OCWNg4bQJai7qZ5ZP2M60+MU+61ACQPE89On8Y0OBmQ== rsa-key-20200505"
+    },
+    "spnClientId": {
+      "value": "f3a32b42-0262-439b-aa66-5967db317d00"
+    },
+    "spnClientSecret": {
+      "value": "5_E7Q~WbL-zzzAANv4cyhukQBmKcNOz~2wVVR"
+    },
+    "spnTenantId": {
+      "value": "1c8672ad-d9cc-4f59-b839-90be132d96ab"
+    },
+    "windowsAdminUsername": {
+      "value": "arcdemo"
+    },
+    "windowsAdminPassword": {
+      "value": "ArcPassword123!!"
+    },
+    "myIpAddress": {
+      "value": "192.168.10.10"
+    },
+    "logAnalyticsWorkspaceName": {
+      "value": "rg-la-arc"
+    },
+    "deploySQLMI": {
+      "value": true
+    },
+    "SQLMIHA": {
+      "value": false
+    },
+    "deployPostgreSQL": {
+      "value": false
+    },
+    "bastionHostName": {
+      "value": "Arc-Data-Demo-Bastion"
+    },
+    "deployBastion": {
+      "value": false
+    },
+    "dnsPrefix": {
+      "value": "arcAksdemo947"
+    }
+  }
+}
